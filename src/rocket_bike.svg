@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="rocket_bike.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4163">
+      <stop
+         style="stop-color:#57a7c5;stop-opacity:1;"
+         offset="0"
+         id="stop4165" />
+      <stop
+         style="stop-color:#57a7c5;stop-opacity:0;"
+         offset="1"
+         id="stop4167" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4163"
+       id="linearGradient4169"
+       x1="181.0232"
+       y1="402.75222"
+       x2="255.73096"
+       y2="402.75222"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1962047"
+     inkscape:cx="299.448"
+     inkscape:cy="680.19929"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4195"
+       inkscape:export-filename="/home/couby/rocket-bike-challenge/images/bike.png"
+       inkscape:export-xdpi="55"
+       inkscape:export-ydpi="55"
+       transform="matrix(0.61878829,-0.7855578,0.7855578,0.61878829,-221.63913,389.2886)">
+      <circle
+         r="31.490707"
+         cy="448.31317"
+         cx="433.42664"
+         id="path4147"
+         style="opacity:1;fill:#5dacd2;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         ry="15.459075"
+         rx="14.313958"
+         cy="449.45828"
+         cx="204.40332"
+         id="path4149"
+         style="opacity:1;fill:#57a7c5;fill-opacity:1;fill-rule:nonzero;stroke:#4d4d4d;stroke-width:2.20000005;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4151"
+         d="m 215.28193,425.9834 12.59628,12.59628 25.19257,-10.30605 26.33768,-5.72558 46.94979,-1.14512 41.2242,3.43535 13.7414,-16.03163 -48.0949,-19.46699 -33.20839,9.16094 -34.3535,-2.29024 z"
+         style="fill:#57a7c5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4153"
+         d="m 360.71175,399.64571 73.28746,56.11072 8.01582,-9.16094 -52.67537,-48.09489 -14.88651,2.29023 22.90233,-28.62792 z"
+         style="fill:#57a7c5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4155"
+         d="m 272.28792,365.7231 c 0,0 -1.36599,21.85589 0.91066,21.85589 2.27666,0 25.95387,1.82132 25.95387,1.82132 l 0,9.10662 -34.14983,-2.73198 -5.46397,-26.86453 z"
+         style="fill:#57a7c5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4157"
+         d="m 185.77504,391.22164 -4.09798,16.39191 22.76655,-1.82132 7.74062,5.00864 23.67721,3.64265 18.66857,-11.38328 -15.93658,-5.00864 -12.74927,0 -13.2046,-4.09798 -12.74926,0 -6.37464,0.45533 z"
+         style="fill:url(#linearGradient4169);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4159"
+         d="m 219.0142,429.46944 -15.93659,17.75791 3.64265,3.18731 16.39192,-16.84724 z"
+         style="fill:#57a7c5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccsccscscscc"
+         inkscape:connector-curvature="0"
+         id="path4161"
+         d="m 183.49838,395.77495 -18.66857,-6.82997 c 0,0 23.22188,-0.45533 6.82997,-10.01728 -16.39192,-9.56195 -23.22188,-8.65129 -23.22188,-8.65129 l 19.1239,9.56195 c 0,0 -81.504247,-3.64265 -37.33714,14.11526 44.1671,17.75791 4.55331,9.10662 4.55331,9.10662 0,0 -20.03456,-2.27665 -8.65129,8.19596 11.38328,10.47261 40.06912,0 40.06912,0 0,0 -15.48125,-2.27666 -5.9193,-5.00864 9.56195,-2.73199 22.31122,-2.73199 22.31122,-2.73199 z"
+         style="fill:#e16f20;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

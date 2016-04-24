@@ -23,3 +23,9 @@ On the Raspberry Pi, we've setup a simple script that does two things:
 
 - run a thread that counts number of times that switch closes (or button is pressed)
 - run a simple HTTP server to display number of turns.
+
+## Some pictures
+![Photo 1](photo1.jpg)
+![Photo 2](photo2.jpg)
+![Photo 3](photo3.jpg)
+![Photo 4](photo4.jpg)
