@@ -91,6 +91,34 @@ var bikeline = L.polyline([[310, 310],
 map.addLayer(animatedMarker);
 
 
+// Social network interactions
+var icon_sn_fb = L.icon({
+  iconUrl: 'images/fb.png',
+  iconSize: [80, 80],
+  iconAnchor: [40, 40],
+  shadowUrl: null
+});
+
+var icon_sn_tw = L.icon({
+  iconUrl: 'images/tw.jpg',
+  iconSize: [80, 80],
+  iconAnchor: [40, 40],
+  shadowUrl: null
+});
+
+setTimeout(function(){
+    L.marker([657, 390], {icon: icon_sn_fb}).addTo(map)
+		.bindPopup('Congratulations. +100 likes you win 10km boost !')
+		.openPopup();
+}, 5000);
+
+setTimeout(function(){
+	L.marker([847, 790], {icon: icon_sn_fb}).addTo(map)
+		.bindPopup('Congratulations. +100 RT you save 10km to ride !')
+		.openPopup();
+}, 10000);
+
+
 // Bike position info display
 var info = L.control({ options: { position: 'bottomright'}});
 
