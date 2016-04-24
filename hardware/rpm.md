@@ -1,7 +1,7 @@
 # RPM sensor
 
 ## Introduction
-For this challenge, the idea is to cover the distance from earth to space station
+For this challenge, the idea is to cover the distance from earth to space station and moon
 virtually. To do so, we use a bike that's installed on a home trainer.
 Then all we have to do is to measure the distance we've gone  through and
 display it on a web page.
@@ -15,6 +15,8 @@ trainer. To do so, we glued a neodymium magnet directly onto the flywheel
 and attach a reed sensor and read RPM with a raspberry pi from it.
 
 The reed is like a switch that closes when a magnet is near it.
+
+![Schematic](pi_schematic.png)
 
 ## Software setup
 On the Raspberry Pi, we've setup a simple script that does two things:
