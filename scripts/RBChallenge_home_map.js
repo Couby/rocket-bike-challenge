@@ -1,49 +1,70 @@
 // ==============================================
-// Gestion fond de carte F4Dom en page d'accueil
+//  Home Rocket Bike Challenge management 
 // ==============================================
 
-// Initialisation de la carte
+// Map init
 var map = L.map('map', {
     crs: L.CRS.Simple,
     Zoom : 1,
     minZoom: -10,
     maxZoom: 3,
     maxBounds : [ [0, 0], [4000, 1200] ],
-    zoomControl : true,
+    zoomControl : false,
     attributionControl : false
 });
 
-// Définitions pour le fond de carte
+// Map background definition
 var bounds = [[0,0], [4000,1200]];
 var image = L.imageOverlay('images/compo_00.jpg', bounds).addTo(map);
 
-// Toujours utile ?
+// Always needed ?
 map.fitBounds(bounds);
 
-// Affichage d'un markeur (provisoire)
-//var sol = L.latLng([ 400, 200 ]);
-//L.marker(sol).addTo(map);
 
-// Réglage de la position et du zoom initial
+// Initial position and zoom set
 map.setView( [600, 300], 0.2);
 
-// Définition du style de base pour l'affichage des territoires
-function style(feature) {
-    return {
-        fillColor: feature.properties.color,
+
+// Rocket bike trajectory
+var trajectory = L.polyline([
+    [310, 310],
+    [850, 687],
+    [880, 708],
+    [909, 723],
+    [1077, 798],
+    [1120, 813],
+    [1147, 813],
+    [1366, 810],
+    [1953, 732],
+    [2289, 609],
+    [2931, 157],
+    [3340, 157],
+    [3583, 154]
+], {
+        fillColor: 'white',
         weight: 2,
         opacity: 1,
         color: 'white',
         dashArray: '3',
         fillOpacity: 0.4
-    };
-}
+    }).addTo(map);
 
 
+// ISS Icon
+var issIcon = L.icon({
+    iconUrl: 'images/iss.png',
+
+    iconSize:     [500, 211], // size of the icon
+    shadowSize:   [0, 0], // size of the shadow
+    iconAnchor:   [250, 105], // point of the icon which will correspond to marker's location
+    shadowAnchor: [250, 105],  // the same for the shadow
+    popupAnchor:  [0, 60] // point from which the popup should open relative to the iconAnchor
+});
+
+L.marker([1120, 600], {icon: issIcon}).addTo(map);
 
 
-
-// Ajout info position du vélo
+// Bike position info display
 var info = L.control({ options: { position: 'bottomright'}});
 
 info.onAdd = function (map) {
