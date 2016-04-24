@@ -108,13 +108,13 @@ var icon_sn_tw = L.icon({
 
 setTimeout(function(){
     L.marker([657, 390], {icon: icon_sn_fb}).addTo(map)
-		.bindPopup('Congratulations. +100 likes you win 10km boost !')
+		.bindPopup('Congratulations. +100 likes we win 10km boost !')
 		.openPopup();
 }, 10000);
 
 setTimeout(function(){
 	L.marker([847, 790], {icon: icon_sn_tw}).addTo(map)
-		.bindPopup('Congratulations. +100 RT you save 10km to ride !')
+		.bindPopup('Congratulations. +100 RT we save 10km to ride !')
 		.openPopup();
 }, 20000);
 
