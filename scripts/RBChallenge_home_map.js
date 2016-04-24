@@ -95,14 +95,14 @@ map.addLayer(animatedMarker);
 var icon_sn_fb = L.icon({
   iconUrl: 'images/fb.png',
   iconSize: [40, 40],
-  iconAnchor: [20, 40],
+  iconAnchor: [20, 00],
   shadowUrl: null
 });
 
 var icon_sn_tw = L.icon({
   iconUrl: 'images/tw.png',
   iconSize: [40, 40],
-  iconAnchor: [20, 40],
+  iconAnchor: [20, 00],
   shadowUrl: null
 });
 
@@ -110,13 +110,13 @@ setTimeout(function(){
     L.marker([657, 390], {icon: icon_sn_fb}).addTo(map)
 		.bindPopup('Congratulations. +100 likes you win 10km boost !')
 		.openPopup();
-}, 5000);
+}, 10000);
 
 setTimeout(function(){
 	L.marker([847, 790], {icon: icon_sn_tw}).addTo(map)
 		.bindPopup('Congratulations. +100 RT you save 10km to ride !')
 		.openPopup();
-}, 10000);
+}, 20000);
 
 
 // Bike position info display
