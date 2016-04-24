@@ -95,14 +95,14 @@ map.addLayer(animatedMarker);
 var icon_sn_fb = L.icon({
   iconUrl: 'images/fb.png',
   iconSize: [40, 40],
-  iconAnchor: [40, 20],
+  iconAnchor: [20, 40],
   shadowUrl: null
 });
 
 var icon_sn_tw = L.icon({
   iconUrl: 'images/tw.png',
   iconSize: [40, 40],
-  iconAnchor: [40, 20],
+  iconAnchor: [20, 40],
   shadowUrl: null
 });
 
