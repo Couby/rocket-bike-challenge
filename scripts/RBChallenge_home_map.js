@@ -64,6 +64,33 @@ var issIcon = L.icon({
 L.marker([1120, 600], {icon: issIcon}).addTo(map);
 
 
+// Bike animation
+var icon_rocket_bike = L.icon({
+  iconUrl: 'images/bike.png',
+  iconSize: [171, 154],
+  iconAnchor: [80, 100],
+  shadowUrl: null
+});
+
+var bikeline = L.polyline([[310, 310],
+    [850, 687],
+    [880, 708],
+    [909, 723],
+    [1077, 798],
+    [1120, 813],
+    [1147, 813],
+    [1366, 810]]),
+    animatedMarker = L.animatedMarker(bikeline.getLatLngs(), {
+                        icon: icon_rocket_bike,
+                        autostart: true,
+                        onEnd: function() {
+                            map.removeLayer(animatedMarker);
+                            }
+                        });
+
+map.addLayer(animatedMarker);
+
+
 // Bike position info display
 var info = L.control({ options: { position: 'bottomright'}});
 
@@ -75,7 +102,7 @@ info.onAdd = function (map) {
 
 info.update = function (props) {
     this._div.innerHTML = '<h4>Position to ISS</h4>' +  (props ?
-        '<b>' + props.name + '</b><br />'
+        '<b>' + props.distance + '</b><br />'
         : 'Hover the Rocket Bike');
 };
 
