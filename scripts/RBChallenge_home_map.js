@@ -94,15 +94,15 @@ map.addLayer(animatedMarker);
 // Social network interactions
 var icon_sn_fb = L.icon({
   iconUrl: 'images/fb.png',
-  iconSize: [80, 80],
-  iconAnchor: [40, 40],
+  iconSize: [40, 40],
+  iconAnchor: [40, 20],
   shadowUrl: null
 });
 
 var icon_sn_tw = L.icon({
   iconUrl: 'images/tw.jpg',
-  iconSize: [80, 80],
-  iconAnchor: [40, 40],
+  iconSize: [40, 40],
+  iconAnchor: [40, 20],
   shadowUrl: null
 });
 
@@ -113,7 +113,7 @@ setTimeout(function(){
 }, 5000);
 
 setTimeout(function(){
-	L.marker([847, 790], {icon: icon_sn_fb}).addTo(map)
+	L.marker([847, 790], {icon: icon_sn_tw}).addTo(map)
 		.bindPopup('Congratulations. +100 RT you save 10km to ride !')
 		.openPopup();
 }, 10000);
