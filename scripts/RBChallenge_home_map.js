@@ -100,7 +100,7 @@ var icon_sn_fb = L.icon({
 });
 
 var icon_sn_tw = L.icon({
-  iconUrl: 'images/tw.jpg',
+  iconUrl: 'images/tw.png',
   iconSize: [40, 40],
   iconAnchor: [40, 20],
   shadowUrl: null
